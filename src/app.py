@@ -68,7 +68,7 @@ def remove_outliers(dataframe, column) -> pd.DataFrame:
 
 
 def main():
-    engine = db_connect()
+    
     dataframe = pd.read_csv('data/raw/AB_NYC_2019.csv', delimiter=',')
     print(dataframe.shape)
     print(dataframe.info())
